@@ -1,0 +1,28 @@
+The current system is web-based online school information system.It will query student,teacher and course information by API andlater will show the information in the web page.
+Technology stack:
+    java, Spring Boot for web framework, maven for build ,
+    mybatis for ORM ,mysql, junit for unit test
+    tomcat for the web container
+
+
+ All code should be written in the tech stack mentioned above.
+
+Architecture:
+  1. the system has 3 layers, controller, service and dao.
+ Constraint:
+  1. The api will follow rest-api style.
+  2. Test-driven code are preferred.
+
+Now to implement the Requirement.
+Requirement:
+ 1. Query student score by student ID
+
+Provide an overall solution following the guidance mentioned above.Don’t generate code.
+ Let's think step by step to describe the solution, and
+ break the solution down in task list based on the guidance mentioned above.
+ And we will refer this task list as our master plan.
+
+Besides these new task ,and the following task at high priorty
+1. Add the task to create database and table in high priority
+2. Add the task create the project skeleton
+

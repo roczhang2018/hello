@@ -1,0 +1,49 @@
+The current system is web-based online school information system.It will query student,teacher and course information by API andlater will show the information in the web page.
+Technology stack:
+    java, Spring Boot for web framework, maven for build , mybatis for ORM ,mysql, junit for unit test .All code should be written in the tech stack mentioned above.
+Architecture:
+  1. the system has 3 layers, controller, service and dao.
+ Constraint:
+  1. The api will follow rest-api style.
+  2. Test-driven code are preferred.
+
+Now to implement the Requirement.
+Requirement:
+ 1. Query student score by student ID
+
+Provide an overall solution following the guidance mentioned above.Don’t generate code.
+ Let's think step by step to describe the solution, and
+ break the solution down in task list based on the guidance mentioned above.
+ And we will refer this task list as our master plan.
+
+The following are the task list:
+1. Create a new database for the school information system.
+2. Create a new table called "students" with the following columns:
+- id (INT): primary key for the student
+- name (VARCHAR): name of the student
+- score (INT): score of the student
+3. Create a new controller class called "StudentController" to handle the API requests for student information.
+4. Define a new API endpoint in the StudentController to retrieve student scores by student ID.
+5. Create a new service class called "StudentService" to handle the business logic for retrieving student scores.
+6. Define a method in the StudentService class to retrieve student scores by student ID.
+7. Create a new DAO (Data Access Object) class called "StudentDAO" to handle the data retrieval from the database.
+8. Define a method in the StudentDAO class to retrieve student scores by student ID.
+9. Use the MyBatis ORM framework to map the SQL queries to Java objects.
+10. Utilize Junit for writing unit tests to ensure the API function properly as expected.
+11. Implement the API documentation in Swagger.
+12. Deploy the application on the web server, such as Tomcat, JBoss, etc.
+
+Please let me know if there are any additional tasks you would like added to the master plan.
+
+
+===========
+
+1. Create the project skeleton with Java, Spring Boot for web framework, Maven for build, and MyBatis for ORM.
+2. Create the database and table for storing student score information.
+3. Define the REST API endpoint for querying student score by student ID.
+4. Implement controller layer logic to handle the API request and response.
+5. Implement service layer logic to retrieve student score from the database using the DAO layer.
+6. Implement DAO layer logic to retrieve student score from the database using MyBatis ORM.
+7. Write unit tests for controller, service, and DAO layers to ensure code quality and functionality.
+8. Integrate all layers together to ensure proper functionality of the whole system.
+9. Deploy the web application on Tomcat web container for access by users.
